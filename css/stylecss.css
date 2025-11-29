@@ -10,7 +10,7 @@ body {
 }
 
 .navbar {
-    background: linear-gradient(90deg, #4b6cb7, #0e1527);
+    background: linear-gradient(90deg, #0e1527, #4b6cb7 );
 }
 
 .navbar-brand {
@@ -613,4 +613,5 @@ footer::after {
     100% {
         transform: rotate(360deg);
     }
+
 }
