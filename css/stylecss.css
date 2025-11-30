@@ -522,10 +522,10 @@ footer::before {
     right: -4px;
     bottom: -4px;
     border-radius: 25px;
-    background: conic-gradient(from 0deg, #ff005e, #ffea00, #00ff95, #00c3ff, #ffffff, #ff005e);
+    background: conic-gradient(from 0deg, #ff005e, #ffea00, #00ff95, #00c3ff, #a8fb03, #ff005e);
     animation: emad1 7s linear infinite;
-    z-index: -1;
-    filter: blur(12px);
+    z-index: -2;
+    filter: blur(10px);
 }
 
 footer::after {
@@ -533,7 +533,7 @@ footer::after {
     position: absolute;
     inset: 0;
     border-radius: 20px;
-    background: rgba(10, 15, 30, 0.9);
+    background: rgba(15, 22, 44, 0.9);
     z-index: -1;
 }
 
@@ -615,3 +615,4 @@ footer::after {
     }
 
 }
+
